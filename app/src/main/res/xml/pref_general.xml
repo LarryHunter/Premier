@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListPreference
+        android:defaultValue="@string/pref_login_default"
+        android:dialogTitle="@string/pref_login_label"
+        android:entries="@array/pref_login_options"
+        android:entryValues="@array/pref_option_values"
+        android:key="@string/pref_login_key"
+        android:title="@string/pref_login_label"/>
+
+</PreferenceScreen>
